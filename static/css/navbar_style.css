@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+#navbar_contact_item {
+  border-left: 2px solid gray;
+}
+
+#navbar_contact_item > * {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #B9732F;
+}
+
+.navbar_brand {
+  width: fit-content;
+}
+
+.company_logo {
+  width: 4rem;
+}
+
+.nav-link {
+  font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (orientation: portrait) {
+  #navbar_contact_item {
+    border-width: 0;
+    padding: 0 !important;
+    text-align: center;
+  }
+}
