@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+#home_services_sector {
+  font-family: 'Raleway', sans-serif;
+}
+
+.home_services_items_container {
+  flex-wrap: wrap;
+}
+
+.service_icon {
+  color: #B9732F;
+}
+
+.service_title {
+  text-align: center;
+}
+
+.service_subtitle {
+  text-align: center;
+}
+
+@media screen and (min-width: 1401px) {
+  #home_services_sector {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #home_services_sector {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #home_services_sector {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #home_services_sector {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #home_services_sector {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #home_services_sector {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
