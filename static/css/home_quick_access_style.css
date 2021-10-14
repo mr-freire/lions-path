@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+#home_quick_access_sector {
+  font-family: 'Raleway', sans-serif;
+}
+
+.quick_access_image {
+  height: 60vh;
+}
+
+.quick_access_container {
+  height: fit-content;
+}
+
+.quick_access_legend {
+  height: 60vh;
+}
+
+.home_quick_access_button {
+  background-color: #B9732F;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.home_quick_access_button:hover {
+  background-color: gray;
+}
+
+@media screen and (orientation: portrait) {
+  .quick_access_container {
+    flex-direction: column;
+  }
+
+  .quick_access_container:last-of-type {
+    flex-direction: column-reverse;
+  }
+
+  .quick_access_image, .quick_access_legend {
+    width: 100% !important;
+  }
+
+}
+
+@media screen and (min-width: 1401px) {
+  .quick_access_legend {
+    padding-left: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .quick_access_legend {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .quick_access_legend {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .quick_access_legend {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quick_access_legend {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .quick_access_legend {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
