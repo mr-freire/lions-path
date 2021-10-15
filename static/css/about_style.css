@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+#about_sector {
+  font-family: 'Raleway', sans-serif;
+}
+
+#about_title_container {
+  background-color: #EDF6FF;
+}
+
+.about_subtext {
+  text-align: center;
+}
