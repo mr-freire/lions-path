@@ -1,0 +1,24 @@
+.modal_contact_icon {
+  text-decoration: none;
+  color: #B9732F;
+}
+
+.modal_contact_icon:hover {
+  cursor: pointer;
+}
+
+.contact_icon {
+  
+}
+
+.whatsapp_modal:hover {
+  color: green;
+}
+
+.email_modal:hover {
+  color: red;
+}
+
+.linkedin_modal:hover {
+  color: rgb(0, 110, 255);
+}
